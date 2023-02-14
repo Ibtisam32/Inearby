@@ -12,7 +12,6 @@ struct TreeAntGame: View {
     @State private var FirstUserScore = 0
     @State var SecondUserScore = 0
     @State private var timerC: Timer?  //nil
-    @State var showingPopup = false
     
     var body: some View {
         ZStack{LinearGradient(colors: [.init("BabyBlue")], startPoint: .zero, endPoint: .zero).ignoresSafeArea()
