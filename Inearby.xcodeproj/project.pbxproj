@@ -14,6 +14,7 @@
 		42446A292991325C006179E0 /* InearbyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42446A282991325C006179E0 /* InearbyTests.swift */; };
 		42446A332991325C006179E0 /* InearbyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42446A322991325C006179E0 /* InearbyUITests.swift */; };
 		42446A352991325C006179E0 /* InearbyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42446A342991325C006179E0 /* InearbyUITestsLaunchTests.swift */; };
+		51F693D0299BBEC50081D8B0 /* TreeAntGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51F693CF299BBEC50081D8B0 /* TreeAntGame.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		42446A2E2991325C006179E0 /* InearbyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InearbyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		42446A322991325C006179E0 /* InearbyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InearbyUITests.swift; sourceTree = "<group>"; };
 		42446A342991325C006179E0 /* InearbyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InearbyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		51F693CF299BBEC50081D8B0 /* TreeAntGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreeAntGame.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			children = (
 				42446A172991325A006179E0 /* InearbyApp.swift */,
 				42446A192991325A006179E0 /* ContentView.swift */,
+				51F693CF299BBEC50081D8B0 /* TreeAntGame.swift */,
 				42446A1B2991325B006179E0 /* Assets.xcassets */,
 				42446A1D2991325B006179E0 /* Preview Content */,
 			);
@@ -259,6 +262,7 @@
 			files = (
 				42446A1A2991325A006179E0 /* ContentView.swift in Sources */,
 				42446A182991325A006179E0 /* InearbyApp.swift in Sources */,
+				51F693D0299BBEC50081D8B0 /* TreeAntGame.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
