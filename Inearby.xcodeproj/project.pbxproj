@@ -17,9 +17,9 @@
 		420895F029A27EA7000ACDAF /* StartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 420895EF29A27EA7000ACDAF /* StartView.swift */; };
 		420895F129A27EA7000ACDAF /* StartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 420895EF29A27EA7000ACDAF /* StartView.swift */; };
 		420895F229A27EA7000ACDAF /* StartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 420895EF29A27EA7000ACDAF /* StartView.swift */; };
-		420895F929A280DE000ACDAF /* RPSMultipeerSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 420895F829A280DE000ACDAF /* RPSMultipeerSession.swift */; };
-		420895FA29A280DE000ACDAF /* RPSMultipeerSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 420895F829A280DE000ACDAF /* RPSMultipeerSession.swift */; };
-		420895FB29A280DE000ACDAF /* RPSMultipeerSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 420895F829A280DE000ACDAF /* RPSMultipeerSession.swift */; };
+		420895FD29A29A7B000ACDAF /* RPSMultipeerSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 420895FC29A29A7B000ACDAF /* RPSMultipeerSession.swift */; };
+		420895FE29A29A7B000ACDAF /* RPSMultipeerSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 420895FC29A29A7B000ACDAF /* RPSMultipeerSession.swift */; };
+		420895FF29A29A7B000ACDAF /* RPSMultipeerSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 420895FC29A29A7B000ACDAF /* RPSMultipeerSession.swift */; };
 		42446A182991325A006179E0 /* InearbyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42446A172991325A006179E0 /* InearbyApp.swift */; };
 		42446A1C2991325B006179E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42446A1B2991325B006179E0 /* Assets.xcassets */; };
 		42446A1F2991325B006179E0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42446A1E2991325B006179E0 /* Preview Assets.xcassets */; };
@@ -51,7 +51,7 @@
 		420895EB29A27E9D000ACDAF /* PairView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PairView.swift; sourceTree = "<group>"; };
 		420895EF29A27EA7000ACDAF /* StartView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartView.swift; sourceTree = "<group>"; };
 		420895F329A27EBB000ACDAF /* PRS.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.entitlements; path = PRS.entitlements; sourceTree = "<group>"; };
-		420895F829A280DE000ACDAF /* RPSMultipeerSession.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RPSMultipeerSession.swift; sourceTree = "<group>"; };
+		420895FC29A29A7B000ACDAF /* RPSMultipeerSession.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RPSMultipeerSession.swift; path = "InearbyTests/Preview Content/RPSMultipeerSession.swift"; sourceTree = SOURCE_ROOT; };
 		42446A142991325A006179E0 /* Inearby.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Inearby.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		42446A172991325A006179E0 /* InearbyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InearbyApp.swift; sourceTree = "<group>"; };
 		42446A1B2991325B006179E0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -115,7 +115,7 @@
 				420895EF29A27EA7000ACDAF /* StartView.swift */,
 				51F693CF299BBEC50081D8B0 /* TreeAntGame.swift */,
 				420895EB29A27E9D000ACDAF /* PairView.swift */,
-				420895F829A280DE000ACDAF /* RPSMultipeerSession.swift */,
+				420895FC29A29A7B000ACDAF /* RPSMultipeerSession.swift */,
 				42446A1B2991325B006179E0 /* Assets.xcassets */,
 				42446A1D2991325B006179E0 /* Preview Content */,
 			);
@@ -283,9 +283,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				420895EC29A27E9D000ACDAF /* PairView.swift in Sources */,
+				420895FD29A29A7B000ACDAF /* RPSMultipeerSession.swift in Sources */,
 				420895F029A27EA7000ACDAF /* StartView.swift in Sources */,
 				42446A182991325A006179E0 /* InearbyApp.swift in Sources */,
-				420895F929A280DE000ACDAF /* RPSMultipeerSession.swift in Sources */,
 				51F693D0299BBEC50081D8B0 /* TreeAntGame.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -294,7 +294,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				420895FA29A280DE000ACDAF /* RPSMultipeerSession.swift in Sources */,
+				420895FE29A29A7B000ACDAF /* RPSMultipeerSession.swift in Sources */,
 				420895F129A27EA7000ACDAF /* StartView.swift in Sources */,
 				420895ED29A27E9D000ACDAF /* PairView.swift in Sources */,
 				42446A292991325C006179E0 /* InearbyTests.swift in Sources */,
@@ -306,7 +306,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				420895EE29A27E9D000ACDAF /* PairView.swift in Sources */,
-				420895FB29A280DE000ACDAF /* RPSMultipeerSession.swift in Sources */,
+				420895FF29A29A7B000ACDAF /* RPSMultipeerSession.swift in Sources */,
 				420895EA29A27E8E000ACDAF /* InearbyUITests.swift in Sources */,
 				42446A352991325C006179E0 /* InearbyUITestsLaunchTests.swift in Sources */,
 				420895F229A27EA7000ACDAF /* StartView.swift in Sources */,
