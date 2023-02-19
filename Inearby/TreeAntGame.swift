@@ -8,6 +8,8 @@
 import SwiftUI
 
 struct TreeAntGame: View {
+    @EnvironmentObject var rpsSession: RPSMultipeerSession
+    @Binding var currentView: Int
     @State private var text = "Tree"
     @State private var FirstUserScore = 0
     @State var SecondUserScore = 0
@@ -79,8 +81,9 @@ struct TreeAntGame: View {
     
 }
 
-struct TreeAntGame_Previews: PreviewProvider {
+ struct TreeAntGame_Previews: PreviewProvider {
     static var previews: some View {
-        TreeAntGame()
+       TreeAntGame(currentView: .constant(0))
+            .environmentObject(RPSMultipeerSession(username: ""))
     }
 }
