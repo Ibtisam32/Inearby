@@ -26,6 +26,11 @@
 		42446A292991325C006179E0 /* InearbyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42446A282991325C006179E0 /* InearbyTests.swift */; };
 		42446A352991325C006179E0 /* InearbyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42446A342991325C006179E0 /* InearbyUITestsLaunchTests.swift */; };
 		51F693D0299BBEC50081D8B0 /* TreeAntGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51F693CF299BBEC50081D8B0 /* TreeAntGame.swift */; };
+		EF1BBA7029A3E4C40040A745 /* caustomcards.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1BBA6F29A3E4C40040A745 /* caustomcards.swift */; };
+		EF1BBA7329A3E4D90040A745 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1BBA7229A3E4D90040A745 /* ContentView.swift */; };
+		EF1BBA7529A3E4E80040A745 /* games.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1BBA7429A3E4E80040A745 /* games.swift */; };
+		EF1BBA7729A3E4F00040A745 /* Stickersview.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1BBA7629A3E4F00040A745 /* Stickersview.swift */; };
+		EF1BBA7929A3E4FA0040A745 /* Homee.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1BBA7829A3E4FA0040A745 /* Homee.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +66,11 @@
 		42446A2E2991325C006179E0 /* InearbyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InearbyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		42446A342991325C006179E0 /* InearbyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InearbyUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		51F693CF299BBEC50081D8B0 /* TreeAntGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreeAntGame.swift; sourceTree = "<group>"; };
+		EF1BBA6F29A3E4C40040A745 /* caustomcards.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = caustomcards.swift; sourceTree = "<group>"; };
+		EF1BBA7229A3E4D90040A745 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EF1BBA7429A3E4E80040A745 /* games.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = games.swift; sourceTree = "<group>"; };
+		EF1BBA7629A3E4F00040A745 /* Stickersview.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Stickersview.swift; sourceTree = "<group>"; };
+		EF1BBA7829A3E4FA0040A745 /* Homee.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Homee.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +101,8 @@
 		42446A0B2991325A006179E0 = {
 			isa = PBXGroup;
 			children = (
+				EF1BBA7129A3E4CD0040A745 /* View */,
+				EF1BBA6E29A3E4AA0040A745 /* Model */,
 				42446A162991325A006179E0 /* Inearby */,
 				42446A272991325C006179E0 /* InearbyTests */,
 				42446A312991325C006179E0 /* InearbyUITests */,
@@ -147,6 +159,25 @@
 				420895E929A27E8E000ACDAF /* InearbyUITests.swift */,
 			);
 			path = InearbyUITests;
+			sourceTree = "<group>";
+		};
+		EF1BBA6E29A3E4AA0040A745 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EF1BBA6F29A3E4C40040A745 /* caustomcards.swift */,
+				EF1BBA7429A3E4E80040A745 /* games.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EF1BBA7129A3E4CD0040A745 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EF1BBA7829A3E4FA0040A745 /* Homee.swift */,
+				EF1BBA7629A3E4F00040A745 /* Stickersview.swift */,
+				EF1BBA7229A3E4D90040A745 /* ContentView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -284,8 +315,13 @@
 			files = (
 				420895EC29A27E9D000ACDAF /* PairView.swift in Sources */,
 				420895FD29A29A7B000ACDAF /* RPSMultipeerSession.swift in Sources */,
+				EF1BBA7929A3E4FA0040A745 /* Homee.swift in Sources */,
+				EF1BBA7329A3E4D90040A745 /* ContentView.swift in Sources */,
+				EF1BBA7729A3E4F00040A745 /* Stickersview.swift in Sources */,
+				EF1BBA7529A3E4E80040A745 /* games.swift in Sources */,
 				420895F029A27EA7000ACDAF /* StartView.swift in Sources */,
 				42446A182991325A006179E0 /* InearbyApp.swift in Sources */,
+				EF1BBA7029A3E4C40040A745 /* caustomcards.swift in Sources */,
 				51F693D0299BBEC50081D8B0 /* TreeAntGame.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -451,6 +487,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Inearby/Preview Content\"";
+				DEVELOPMENT_TEAM = 44WU49QPS6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -479,6 +516,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Inearby/Preview Content\"";
+				DEVELOPMENT_TEAM = 44WU49QPS6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
