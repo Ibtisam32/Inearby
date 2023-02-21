@@ -11,7 +11,7 @@ import SwiftUI
 struct InearbyApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            StartView()
         }
     }
 }
