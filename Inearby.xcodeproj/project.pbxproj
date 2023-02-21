@@ -31,6 +31,7 @@
 		EF1BBA7529A3E4E80040A745 /* games.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1BBA7429A3E4E80040A745 /* games.swift */; };
 		EF1BBA7729A3E4F00040A745 /* Stickersview.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1BBA7629A3E4F00040A745 /* Stickersview.swift */; };
 		EF1BBA7929A3E4FA0040A745 /* Homee.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1BBA7829A3E4FA0040A745 /* Homee.swift */; };
+		EF890B1129A50FAC0080F1EB /* info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EF890B1029A50FAC0080F1EB /* info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,7 +56,6 @@
 		420895E929A27E8E000ACDAF /* InearbyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InearbyUITests.swift; sourceTree = "<group>"; };
 		420895EB29A27E9D000ACDAF /* PairView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PairView.swift; sourceTree = "<group>"; };
 		420895EF29A27EA7000ACDAF /* StartView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartView.swift; sourceTree = "<group>"; };
-		420895F329A27EBB000ACDAF /* PRS.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.entitlements; path = PRS.entitlements; sourceTree = "<group>"; };
 		420895FC29A29A7B000ACDAF /* RPSMultipeerSession.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RPSMultipeerSession.swift; path = "InearbyTests/Preview Content/RPSMultipeerSession.swift"; sourceTree = SOURCE_ROOT; };
 		42446A142991325A006179E0 /* Inearby.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Inearby.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		42446A172991325A006179E0 /* InearbyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InearbyApp.swift; sourceTree = "<group>"; };
@@ -71,6 +71,13 @@
 		EF1BBA7429A3E4E80040A745 /* games.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = games.swift; sourceTree = "<group>"; };
 		EF1BBA7629A3E4F00040A745 /* Stickersview.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Stickersview.swift; sourceTree = "<group>"; };
 		EF1BBA7829A3E4FA0040A745 /* Homee.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Homee.swift; sourceTree = "<group>"; };
+		EF890B0F29A50F5D0080F1EB /* Inearby.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Inearby.entitlements; sourceTree = "<group>"; };
+		EF890B1029A50FAC0080F1EB /* info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = info.plist; sourceTree = "<group>"; };
+		EF890B1829A5111A0080F1EB /* InearbyyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InearbyyApp.swift; sourceTree = "<group>"; };
+		EF890B1A29A5111A0080F1EB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EF890B1C29A5111B0080F1EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EF890B1F29A5111B0080F1EB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EF890B2129A5111B0080F1EB /* Inearbyy.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Inearbyy.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +113,7 @@
 				42446A162991325A006179E0 /* Inearby */,
 				42446A272991325C006179E0 /* InearbyTests */,
 				42446A312991325C006179E0 /* InearbyUITests */,
+				EF890B1729A5111A0080F1EB /* Inearbyy */,
 				42446A152991325A006179E0 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -138,7 +146,6 @@
 			isa = PBXGroup;
 			children = (
 				42446A1E2991325B006179E0 /* Preview Assets.xcassets */,
-				420895F329A27EBB000ACDAF /* PRS.entitlements */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -176,8 +183,30 @@
 				EF1BBA7829A3E4FA0040A745 /* Homee.swift */,
 				EF1BBA7629A3E4F00040A745 /* Stickersview.swift */,
 				EF1BBA7229A3E4D90040A745 /* ContentView.swift */,
+				EF890B0F29A50F5D0080F1EB /* Inearby.entitlements */,
+				EF890B1029A50FAC0080F1EB /* info.plist */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		EF890B1729A5111A0080F1EB /* Inearbyy */ = {
+			isa = PBXGroup;
+			children = (
+				EF890B1829A5111A0080F1EB /* InearbyyApp.swift */,
+				EF890B1A29A5111A0080F1EB /* ContentView.swift */,
+				EF890B1C29A5111B0080F1EB /* Assets.xcassets */,
+				EF890B2129A5111B0080F1EB /* Inearbyy.entitlements */,
+				EF890B1E29A5111B0080F1EB /* Preview Content */,
+			);
+			path = Inearbyy;
+			sourceTree = "<group>";
+		};
+		EF890B1E29A5111B0080F1EB /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				EF890B1F29A5111B0080F1EB /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -284,6 +313,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF890B1129A50FAC0080F1EB /* info.plist in Resources */,
 				420895E229A27E2A000ACDAF /* Preview Content in Resources */,
 				42446A1F2991325B006179E0 /* Preview Assets.xcassets in Resources */,
 				42446A1C2991325B006179E0 /* Assets.xcassets in Resources */,
@@ -397,6 +427,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_ENTITLEMENTS = Inearby/Inearby.entitlements;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -457,6 +488,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_ENTITLEMENTS = Inearby/Inearby.entitlements;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -484,6 +516,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Inearby/Inearby.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Inearby/Preview Content\"";
@@ -513,6 +546,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Inearby/Inearby.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Inearby/Preview Content\"";
