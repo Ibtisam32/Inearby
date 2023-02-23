@@ -25,6 +25,13 @@
 		42446A292991325C006179E0 /* InearbyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42446A282991325C006179E0 /* InearbyTests.swift */; };
 		42446A352991325C006179E0 /* InearbyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42446A342991325C006179E0 /* InearbyUITestsLaunchTests.swift */; };
 		51F693D0299BBEC50081D8B0 /* TreeAntGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51F693CF299BBEC50081D8B0 /* TreeAntGame.swift */; };
+		53B9CF9F29A81CE0007E3BC0 /* BoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53B9CF9E29A81CE0007E3BC0 /* BoardView.swift */; };
+		53B9CFA129A81CFF007E3BC0 /* GamrViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53B9CFA029A81CFF007E3BC0 /* GamrViewModel.swift */; };
+		53B9CFA329A81D29007E3BC0 /* GameMoveModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53B9CFA229A81D29007E3BC0 /* GameMoveModel.swift */; };
+		53B9CFA529A81D52007E3BC0 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53B9CFA429A81D52007E3BC0 /* User.swift */; };
+		53B9CFA929A81D83007E3BC0 /* XORecView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53B9CFA829A81D83007E3BC0 /* XORecView.swift */; };
+		53B9CFAB29A81D99007E3BC0 /* PlayerIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53B9CFAA29A81D99007E3BC0 /* PlayerIndicatorView.swift */; };
+		53B9CFAD29A81DBB007E3BC0 /* XOTimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53B9CFAC29A81DBB007E3BC0 /* XOTimerView.swift */; };
 		EF1BBA7029A3E4C40040A745 /* caustomcards.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1BBA6F29A3E4C40040A745 /* caustomcards.swift */; };
 		EF1BBA7329A3E4D90040A745 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1BBA7229A3E4D90040A745 /* ContentView.swift */; };
 		EF1BBA7529A3E4E80040A745 /* games.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1BBA7429A3E4E80040A745 /* games.swift */; };
@@ -77,6 +84,13 @@
 		42446A2E2991325C006179E0 /* InearbyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InearbyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		42446A342991325C006179E0 /* InearbyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InearbyUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		51F693CF299BBEC50081D8B0 /* TreeAntGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreeAntGame.swift; sourceTree = "<group>"; };
+		53B9CF9E29A81CE0007E3BC0 /* BoardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardView.swift; sourceTree = "<group>"; };
+		53B9CFA029A81CFF007E3BC0 /* GamrViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamrViewModel.swift; sourceTree = "<group>"; };
+		53B9CFA229A81D29007E3BC0 /* GameMoveModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameMoveModel.swift; sourceTree = "<group>"; };
+		53B9CFA429A81D52007E3BC0 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		53B9CFA829A81D83007E3BC0 /* XORecView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XORecView.swift; sourceTree = "<group>"; };
+		53B9CFAA29A81D99007E3BC0 /* PlayerIndicatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerIndicatorView.swift; sourceTree = "<group>"; };
+		53B9CFAC29A81DBB007E3BC0 /* XOTimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XOTimerView.swift; sourceTree = "<group>"; };
 		EF1BBA6F29A3E4C40040A745 /* caustomcards.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = caustomcards.swift; sourceTree = "<group>"; };
 		EF1BBA7229A3E4D90040A745 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		EF1BBA7429A3E4E80040A745 /* games.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = games.swift; sourceTree = "<group>"; };
@@ -184,6 +198,8 @@
 			children = (
 				EF1BBA6F29A3E4C40040A745 /* caustomcards.swift */,
 				EF1BBA7429A3E4E80040A745 /* games.swift */,
+				53B9CFA429A81D52007E3BC0 /* User.swift */,
+				53B9CFA229A81D29007E3BC0 /* GameMoveModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -194,6 +210,11 @@
 				EF1BBA7829A3E4FA0040A745 /* Homee.swift */,
 				EF1BBA7629A3E4F00040A745 /* Stickersview.swift */,
 				EF1BBA7229A3E4D90040A745 /* ContentView.swift */,
+				53B9CF9E29A81CE0007E3BC0 /* BoardView.swift */,
+				53B9CFA029A81CFF007E3BC0 /* GamrViewModel.swift */,
+				53B9CFA829A81D83007E3BC0 /* XORecView.swift */,
+				53B9CFAC29A81DBB007E3BC0 /* XOTimerView.swift */,
+				53B9CFAA29A81D99007E3BC0 /* PlayerIndicatorView.swift */,
 				EF48149329A534940080CFA9 /* Info.plist */,
 			);
 			path = View;
@@ -351,12 +372,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				53B9CFA929A81D83007E3BC0 /* XORecView.swift in Sources */,
+				53B9CF9F29A81CE0007E3BC0 /* BoardView.swift in Sources */,
 				420895EC29A27E9D000ACDAF /* PairView.swift in Sources */,
 				420895FD29A29A7B000ACDAF /* RPSMultipeerSession.swift in Sources */,
+				53B9CFAD29A81DBB007E3BC0 /* XOTimerView.swift in Sources */,
 				EF1BBA7929A3E4FA0040A745 /* Homee.swift in Sources */,
 				EF1BBA7329A3E4D90040A745 /* ContentView.swift in Sources */,
+				53B9CFA129A81CFF007E3BC0 /* GamrViewModel.swift in Sources */,
+				53B9CFA529A81D52007E3BC0 /* User.swift in Sources */,
 				EF1BBA7729A3E4F00040A745 /* Stickersview.swift in Sources */,
+				53B9CFAB29A81D99007E3BC0 /* PlayerIndicatorView.swift in Sources */,
 				EF1BBA7529A3E4E80040A745 /* games.swift in Sources */,
+				53B9CFA329A81D29007E3BC0 /* GameMoveModel.swift in Sources */,
 				420895F029A27EA7000ACDAF /* StartView.swift in Sources */,
 				42446A182991325A006179E0 /* InearbyApp.swift in Sources */,
 				EF1BBA7029A3E4C40040A745 /* caustomcards.swift in Sources */,
