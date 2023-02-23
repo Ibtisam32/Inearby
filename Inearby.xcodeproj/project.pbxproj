@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		420895E229A27E2A000ACDAF /* Preview Content in Resources */ = {isa = PBXBuildFile; fileRef = 420895E129A27E2A000ACDAF /* Preview Content */; };
 		420895E329A27E2A000ACDAF /* Preview Content in Resources */ = {isa = PBXBuildFile; fileRef = 420895E129A27E2A000ACDAF /* Preview Content */; };
 		420895E429A27E2A000ACDAF /* Preview Content in Resources */ = {isa = PBXBuildFile; fileRef = 420895E129A27E2A000ACDAF /* Preview Content */; };
 		420895EA29A27E8E000ACDAF /* InearbyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 420895E929A27E8E000ACDAF /* InearbyUITests.swift */; };
@@ -31,7 +30,6 @@
 		EF1BBA7529A3E4E80040A745 /* games.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1BBA7429A3E4E80040A745 /* games.swift */; };
 		EF1BBA7729A3E4F00040A745 /* Stickersview.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1BBA7629A3E4F00040A745 /* Stickersview.swift */; };
 		EF1BBA7929A3E4FA0040A745 /* Homee.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1BBA7829A3E4FA0040A745 /* Homee.swift */; };
-		EF890B1129A50FAC0080F1EB /* info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EF890B1029A50FAC0080F1EB /* info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +48,19 @@
 			remoteInfo = Inearby;
 		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		EF48149229A534520080CFA9 /* Services */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 7;
+			files = (
+			);
+			name = Services;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		420895E129A27E2A000ACDAF /* Preview Content */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "Preview Content"; sourceTree = "<group>"; };
@@ -71,13 +82,12 @@
 		EF1BBA7429A3E4E80040A745 /* games.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = games.swift; sourceTree = "<group>"; };
 		EF1BBA7629A3E4F00040A745 /* Stickersview.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Stickersview.swift; sourceTree = "<group>"; };
 		EF1BBA7829A3E4FA0040A745 /* Homee.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Homee.swift; sourceTree = "<group>"; };
-		EF890B0F29A50F5D0080F1EB /* Inearby.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Inearby.entitlements; sourceTree = "<group>"; };
-		EF890B1029A50FAC0080F1EB /* info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = info.plist; sourceTree = "<group>"; };
+		EF48149329A534940080CFA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF48149729A54CF40080CFA9 /* InearbyRelease.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = InearbyRelease.entitlements; sourceTree = "<group>"; };
 		EF890B1829A5111A0080F1EB /* InearbyyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InearbyyApp.swift; sourceTree = "<group>"; };
 		EF890B1A29A5111A0080F1EB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		EF890B1C29A5111B0080F1EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EF890B1F29A5111B0080F1EB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		EF890B2129A5111B0080F1EB /* Inearbyy.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Inearbyy.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,6 +141,7 @@
 		42446A162991325A006179E0 /* Inearby */ = {
 			isa = PBXGroup;
 			children = (
+				EF48149729A54CF40080CFA9 /* InearbyRelease.entitlements */,
 				42446A172991325A006179E0 /* InearbyApp.swift */,
 				420895EF29A27EA7000ACDAF /* StartView.swift */,
 				51F693CF299BBEC50081D8B0 /* TreeAntGame.swift */,
@@ -183,8 +194,7 @@
 				EF1BBA7829A3E4FA0040A745 /* Homee.swift */,
 				EF1BBA7629A3E4F00040A745 /* Stickersview.swift */,
 				EF1BBA7229A3E4D90040A745 /* ContentView.swift */,
-				EF890B0F29A50F5D0080F1EB /* Inearby.entitlements */,
-				EF890B1029A50FAC0080F1EB /* info.plist */,
+				EF48149329A534940080CFA9 /* Info.plist */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -195,7 +205,6 @@
 				EF890B1829A5111A0080F1EB /* InearbyyApp.swift */,
 				EF890B1A29A5111A0080F1EB /* ContentView.swift */,
 				EF890B1C29A5111B0080F1EB /* Assets.xcassets */,
-				EF890B2129A5111B0080F1EB /* Inearbyy.entitlements */,
 				EF890B1E29A5111B0080F1EB /* Preview Content */,
 			);
 			path = Inearbyy;
@@ -219,6 +228,7 @@
 				42446A102991325A006179E0 /* Sources */,
 				42446A112991325A006179E0 /* Frameworks */,
 				42446A122991325A006179E0 /* Resources */,
+				EF48149229A534520080CFA9 /* Services */,
 			);
 			buildRules = (
 			);
@@ -313,8 +323,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EF890B1129A50FAC0080F1EB /* info.plist in Resources */,
-				420895E229A27E2A000ACDAF /* Preview Content in Resources */,
 				42446A1F2991325B006179E0 /* Preview Assets.xcassets in Resources */,
 				42446A1C2991325B006179E0 /* Assets.xcassets in Resources */,
 			);
@@ -398,6 +406,7 @@
 		42446A362991325C006179E0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALLOW_TARGET_PLATFORM_SPECIALIZATION = YES;
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
@@ -427,9 +436,11 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_ENTITLEMENTS = Inearby/Inearby.entitlements;
+				CODE_SIGN_ENTITLEMENTS = "";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
@@ -451,14 +462,18 @@
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "watchsimulator watchos macosx iphonesimulator iphoneos driverkit appletvsimulator appletvos";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VALIDATE_PRODUCT = YES;
 			};
 			name = Debug;
 		};
 		42446A372991325C006179E0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALLOW_TARGET_PLATFORM_SPECIALIZATION = YES;
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
@@ -488,9 +503,11 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_ENTITLEMENTS = Inearby/Inearby.entitlements;
+				CODE_SIGN_ENTITLEMENTS = "";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
@@ -505,6 +522,8 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "watchsimulator watchos macosx iphonesimulator iphoneos driverkit appletvsimulator appletvos";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				VALIDATE_PRODUCT = YES;
@@ -521,20 +540,24 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Inearby/Preview Content\"";
 				DEVELOPMENT_TEAM = 44WU49QPS6;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
-				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_FILE = Inearby/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.games";
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = ibtisam.Inearby;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -547,24 +570,30 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = Inearby/Inearby.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Inearby/Preview Content\"";
 				DEVELOPMENT_TEAM = 44WU49QPS6;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
-				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_FILE = Inearby/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.games";
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = ibtisam.Inearby;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
