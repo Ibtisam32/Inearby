@@ -1,20 +1,22 @@
+
 //
-//  TreeAntGame.swift
-//  Inearby
+//  Test.swift
+//  Ant&Tree
 //
-//  Created by Kawthar Almajhad on 23/07/1444 AH.
+//  Created by Kawthar Almajhad on 22/07/1444 AH.
 //
 
 import SwiftUI
 
-struct TreeAntGame: View {
-    @EnvironmentObject var rpsSession: RPSMultipeerSession
-    @Binding var currentView: Int
+struct Test: View {
     @State private var text = "Tree"
     @State private var FirstUserScore = 0
     @State var SecondUserScore = 0
     @State private var timerC: Timer?  //nil
     @State private var exitGamePopup = false
+    @State private var winPopup = false
+    @State private var losePopup = false
+   // @State private var drawPopup = false
     
     var body: some View {
         ZStack{LinearGradient(colors: [.init("BabyBlue")], startPoint: .zero, endPoint: .zero).ignoresSafeArea()
@@ -50,6 +52,10 @@ struct TreeAntGame: View {
                                 self.timerC = nil
                             }
                         }
+                        else if FirstUserScore == 2 {
+                            self.winPopup = true
+                        }
+
                     }){
                         Image("Tree").resizable()
                             .aspectRatio(contentMode: .fill).frame(width:130 ,height: 180).background(Color.init("DarkBlue")).cornerRadius(15)
@@ -62,9 +68,9 @@ struct TreeAntGame: View {
                                 self.timerC = nil
                             }
                         }
-                        //                else if FirstUserScore == 10 {
-                        //                    showingPopup = true
-                        //                }
+                                        else if FirstUserScore == 2 {
+                                            self.winPopup = true
+                                        }
                     }){
                         Image("Ant").resizable()
                             .aspectRatio(contentMode: .fit).frame(width:130 ,height: 180).background(Color.init("Blue")).cornerRadius(15)
@@ -73,12 +79,16 @@ struct TreeAntGame: View {
                 }
             }
             
-            
+            if $winPopup.wrappedValue {
+                WinPopupfunc()
+            }
+             
                  if $exitGamePopup.wrappedValue {
                      
                      ExitPopupfunc()
                  }
-                 
+            
+               
               
                 Text(text)
                     .frame(width: 150, height: 60)
@@ -92,14 +102,133 @@ struct TreeAntGame: View {
                             self.text =   self.text == "Tree" ? "Ant" : "Tree"
                         }// self.text = bool? true : false
                     }
-            
-//            if FirstUserScore == 10 {
-//                Text("End Game")
-//            }
-
-            
+                
         }
     }
+    
+    private func LosePopupfunc() -> some View {
+        
+        VStack (spacing : 5) {
+            
+            Text("You Lose!").font(.system(size: 24, weight: .bold)).foregroundColor(Color.init("DarkBlue")).padding()
+        
+//                Image("coins").resizable()
+//                    .aspectRatio(contentMode: .fit).frame(width:130 ,height: 100)
+            
+            HStack{
+                
+                Button(action: {
+    
+                        self.losePopup = false
+       
+                }, label: {
+                    Text("Back").frame(width: 100, height: 40)
+                        .background(Color.init("DarkBlue"))
+                        .foregroundColor(Color.white)
+                        .cornerRadius(10)
+                }).padding()
+                
+                Button(action: {
+                        
+                        self.losePopup = false
+                    
+                }, label: {
+                    Text("Play Again").frame(width: 100, height: 40)
+                        .background(Color.init("DarkBlue"))
+                        .foregroundColor(Color.white)
+                        .cornerRadius(10)
+                }).padding()
+            }
+        }.padding()
+            .frame(width: 300, height: 270)
+            .background(Color.init("PopupColor"))
+            .cornerRadius(20)
+    }
+    
+    
+    // in my game there is no chance for DRAW , that will be for the XO Game
+    
+    
+//    private func DrawPopupfunc() -> some View {
+//
+//        VStack (spacing : 5) {
+//
+//            Text("Draw").font(.system(size: 24, weight: .bold)).foregroundColor(Color.init("DarkBlue")).padding()
+//
+////                Image("coins").resizable()
+////                    .aspectRatio(contentMode: .fit).frame(width:130 ,height: 100)
+//
+//            HStack{
+//
+//                Button(action: {
+//
+//                        self.drawPopup = false
+//
+//                }, label: {
+//                    Text("Back").frame(width: 100, height: 40)
+//                        .background(Color.init("DarkBlue"))
+//                        .foregroundColor(Color.white)
+//                        .cornerRadius(10)
+//                }).padding()
+//
+//                Button(action: {
+//
+//                        self.drawPopup = false
+//
+//                }, label: {
+//                    Text("Play Again").frame(width: 100, height: 40)
+//                        .background(Color.init("DarkBlue"))
+//                        .foregroundColor(Color.white)
+//                        .cornerRadius(10)
+//                }).padding()
+//            }
+//        }.padding()
+//            .frame(width: 300, height: 270)
+//            .background(Color.init("PopupColor"))
+//            .cornerRadius(20)
+//    }
+    
+    private func WinPopupfunc() -> some View {
+        
+        VStack (spacing : 5) {
+            
+            Text("You Win!").font(.system(size: 24, weight: .bold)).foregroundColor(Color.init("DarkBlue")).padding()
+        
+                Image("coins").resizable()
+                    .aspectRatio(contentMode: .fit).frame(width:130 ,height: 100)
+            
+            Text("10 Coins").font(.system(size: 16, weight: .bold)).foregroundColor(Color.init("DarkBlue"))
+            
+            HStack{
+                
+                Button(action: {
+    
+                        self.winPopup = false
+       
+                }, label: {
+                    Text("Back").frame(width: 100, height: 40)
+                        .background(Color.init("DarkBlue"))
+                        .foregroundColor(Color.white)
+                        .cornerRadius(10)
+                }).padding()
+                
+                Button(action: {
+                        
+                        self.winPopup = false
+                    
+                }, label: {
+                    Text("Play Again").frame(width: 100, height: 40)
+                        .background(Color.init("DarkBlue"))
+                        .foregroundColor(Color.white)
+                        .cornerRadius(10)
+                }).padding()
+            }
+        }.padding()
+            .frame(width: 300, height: 270)
+            .background(Color.init("PopupColor"))
+            .cornerRadius(20)
+    }
+    
     
     private func ExitPopupfunc() -> some View {
         
@@ -146,15 +275,14 @@ struct TreeAntGame: View {
         .frame(width: 300, height: 270)
         .background(Color.init("PopupColor"))
         .cornerRadius(20)
-        //.shadow(radius: 30 )
+        //.shadow(radius: 30)
     
     }
     
 }
 
- struct TreeAntGame_Previews: PreviewProvider {
+struct Test_Previews: PreviewProvider {
     static var previews: some View {
-       TreeAntGame(currentView: .constant(0))
-            .environmentObject(RPSMultipeerSession(username: ""))
+        Test()
     }
 }
